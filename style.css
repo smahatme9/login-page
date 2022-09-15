@@ -1,0 +1,66 @@
+ /* hare background image, font family, and font size styling done */
+body{
+    background-image: url(login.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+/* this is main contener */
+.maincontener{
+    font-size: medium;
+    background-color: white;
+    width: 70%;
+    margin: 8%  auto;
+    border-radius: 20px;
+    text-align: right;
+    padding: 30px 40px 20px 0px;
+}
+/* image size adjustment */
+.img{
+    width: 300px;
+    height: 300px;
+    float:left;
+    padding: 50px 0px 30px 90px;
+}
+/* heading  */
+.heading{
+    color:black ;
+    margin: 0px 110px 0px 0px;
+}
+/* input elements */
+.input{
+    padding-right:150px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 1px rgb(186, 181, 181);
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+/* button styling */
+#button{
+    width: 330px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: solid 1px green;
+    border-radius: 20px;
+    margin-top: 30px;
+    background-color: green;
+    color: white;
+}
+ /* checkbox adjusted */
+.checkbox{
+    margin-top: 50px;
+    margin-right: 180px;
+}
+.checkbox1{
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+ /* forget password link */
+#link{
+    margin-right: 100px;
+    text-decoration: none;
+    color: rgb(145, 135, 135);
+}
